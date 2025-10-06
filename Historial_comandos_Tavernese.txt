@@ -1,0 +1,102 @@
+pwd
+ll
+cd repogit
+git clone git@github.com:gongrohl/TP_AySO.git
+cd
+ssh-keygen
+cd
+pwd
+ls -la
+cd .ssh
+ls -la
+cat id_rsa.pub
+gitcd
+cd
+git --version
+git clone git@github.com:gongrohl/TP_AySO.git
+cd TP_AySO/
+pwd
+ll
+cat /etc/mtab
+man grep
+vagrant halt
+exit
+man grep
+grep --help
+grep -i SYSFS /etc/mtab
+grep home_url /etc/os-release
+grep -i Sysfs /etc/mtab
+grep -i Sysfs /etc/mtab > datos_sys.txt
+ls
+cat datos_sys.txt
+whoami
+echo "Usuario=$(whoami)" > datos_usuario.txt
+cat datos_usuario.txt
+git add .
+git config --global user.email "tavernesegonzalo@gmail.com"
+git config --global user.name "gongrohl"
+git add .
+ls
+cd TP_AySO/
+ls
+git add .
+grep -i SYSFS /etc/mtab
+grep home_url /etc/os-release
+grep -i Sysfs /etc/mtab
+grep -i Sysfs /etc/mtab > datos_sys.txt
+cat datos_sys.txt 
+echo "Usuario=$(whoami)" > datos_usuario.txt
+cat datos_usuario.txt 
+git add .
+git config --global user.email "tavernesegonzalo@gmail.com"
+git config --global user.name "gongrohl"
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git status
+git push
+grep "vagrant" /etc/passwd | awk -F: '{print $5, $6}' >> datos_usuario.txt
+cat datos_usuario.txt
+git add .
+git commit -m "feat: Añadiendo información del Usuario"
+git status
+git push
+cat << EOF >> README.md
+Alumno: Gonzalo Tavernese
+División: 115
+Turno: Mañana
+EOF
+
+cat README.md 
+git add README.md
+git add README.md datos_usuario.txt
+git commit -m "ADD: Añadiendo Readme y datos de usuario"
+git push
+sudo apt install tree
+cd
+pwd
+mkdir -p /TTP1/{arquitectura/{Clase{1..5},so/{Clase{1..6}}
+mkdir -p /TP1/{arquitectura/{Clase{1..5},so/{Clase{1..6}}
+sudo mkdir -p /TP1/{arquitectura/{Clase{1..5},so/{Clase{1..6}}
+tree TP1
+ls
+mkdir -p /TP1/{arquitectura/{Clase1,Clase2,Clase3,Clase4,Clase5},so/{Clase1,Clase2,Clase3,Clase4,Clase5,Clase6}}
+sudo mkdir -p TP1/{arquitectura/{Clase1,Clase2,Clase3,Clase4,Clase5},so/{Clase1,Clase2,Clase3,Clase4,Clase5,Clase6}}
+tree TP1
+nano script_dir.sh
+cat script_dir.sh
+chmod +x script_dir.sh
+./script_dir.sh
+cat README.md
+git add script_dir.sh
+ls
+rm -r script_dir.sh
+ls
+cd TP_AySO/
+ls
+nano script_dir.sh
+chmod +x script_dir.sh
+./script_dir.sh
+cat README.md
+git add script_dir.sh
+git commit -m "ADD: Añadiendo script"
+git push
+history -a
