@@ -1,1 +1,3 @@
-# TP_AySO
+# TP_AySOAlumno: Gonzalo Tavernese
+Division: 116
+Turno: Mañana
