@@ -1,0 +1,103 @@
+ssh gen
+ssh-keygen
+cd
+pwd
+ls -la
+cd .ssh
+ls -la
+cat id_rsa.pub
+cd
+sudo apt install git
+git --version
+cd
+mkdir repogit
+ls
+cd repogit/
+ls
+cd UTN-FRA_SO_onBording/
+ls
+cd ..
+rm -rf repogit/
+ls
+mkdir repogit
+cd repogit/
+git clone git@github.com:gongrohl/TP_AySO.git
+ls
+cd TP_AySO/
+ls
+pws
+pwd
+ls -s
+cd repogit/
+cd TP_AySO/
+ls
+cd
+cat /etc/passwd
+man grep
+grep UBUNTU /etc/passwd
+grep ubuntu /etc/passwd
+grep -i Ubuntu /etc/passwd
+grep -i "ubuntu" /etc/passwd | awk -F: '{print $2}' > datos_usuario.txt
+whoami
+echo "Usuario=$(whoami)" >> datos_usuario.txt
+cat datos_usuario.txt 
+git add .
+cpwd
+ppppw
+pwvagrant halt
+ls
+git add .
+git config --global user.email "tavernesegonzalo@gmail.com"
+git config --global user.name "gongrohl"
+git add .
+mv datos_usuario.txt repogit
+ls
+cd repogit
+ls
+mv datos_usuario.txt TP_AySO
+ls
+cd TP_AySO/
+ls
+git add .
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git status
+pwd
+touch info_pc.txt
+grep "model name" /proc/proc/cpuinfo | head -n1 >> info_pc.txt
+grep "model name" /proc/cpuinfo | head -n1 >> info_pc.txt
+ls
+cat info_pc.txt 
+git add info_pc.txt 
+git commit -m "feat: Añadiendo información de CPU"
+man sort
+grep -v "nologin" /etc/passwd | head -n 10 | sort -t : -k 7 > lista_ordenada
+cat lista_ordenada 
+git add lista_ordenada
+git commit -m "ADD: Listado de usuarios ordenada"
+cat << 'EOF' >> README.md 
+Alumno: Gonzalo Tavernese
+Division: 116
+Turno: Mañana
+EOF
+
+cat README.md 
+git add README.md
+git commit -m "docs: añadir datos del alumno al README"
+mkdir -p ~/TP1/{arquitectura/Clase{1..5},so/Clase{1..6}}
+tree ~/TP1
+apt install tree
+sudo apt install tree
+tree ~/TP1
+cd
+ls
+cd repogit/
+cd TP_AySO/
+ls
+echo /bin/bash > script_dir.sh
+echo "mkdir -p ~/TP1/{arquitectura/Clase{1..5},so/Clase{1..6}}" >> script_dir.sh
+chmod +x script_dir.sh
+git add .
+git commit -m "ADD: Añadiendo script"
+git push
+history -a
+cp $HOME/.bash_history ./Historial_comandos_<TaverneseGonzalo>.txt
