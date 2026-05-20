@@ -1,0 +1,1 @@
+model name	: AMD FX(tm)-6300 Six-Core Processor
